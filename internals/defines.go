@@ -18,6 +18,13 @@ var Libraries = []ItemHash{
 		Sha512: "40b2a7d054581eb002a782e52bdfa0fe3a3785bacb3f68417a8398ca36767789161444cf3730f9add8e336f238302677f1695fa85d86e2f38f774c22133a2c73",
 		Djb2:   "48974c2b9a61004",
 	},
+	{
+		Name:   "kernel32.dll",
+		Sha1:   "bd01b7dddbfc7adb7fcfaf67c60a1fc711edcb9a",
+		Sha256: "53bca28c2b7b9d6f9a4432615443647cbc70f7137a99c32c4fe0393e983069c1",
+		Sha512: "1ab3761cb0001487a2b0c55e14c3639d1a52872490b9ca0349079fd4c22dd5c33a82eeb845c332b7ce2b7c5834ecfbde7a921b34e65cf01000f14a4f5b06d5c1",
+		Djb2:   "8c775840897f8bc4",
+	},
 }
 
 var Ntdll = []ItemHash{
@@ -91,4 +98,27 @@ var Ntdll = []ItemHash{
 		Sha512: "a06ee8da37a43a240267a122a8ea85fbf9e0b403e140e13ea3504bff2004e1902df4542e5d5b821439ab73633d2405cf8c1c4ccdef288c26e8ecfa07be49cae8",
 		Djb2:   "aabf4c35522cfc3e",
 	},
+	{
+		Name:   "ConvertThreadToFiber",
+		Sha1:   "aa85bb3c4e320b27a183d65404ff90cfad8cccb7",
+		Sha256: "62b2bec4a6c8fd1a677e9b0c4eefab13307fb094b95c3cc37ec9dfd94f768099",
+		Sha512: "853f774c6833c2daf2099e05ab96f2b078db283bac1438baae3a2e2b40f0bb106d479571938eb7b4d6010506812eecd5069cbd3109a975be92be3842a5d0ad5d",
+		Djb2:   "ada1a1fca3885b6c",
+	},
+	{
+		Name:   "CreateFiber",
+		Sha1:   "728bd37ba7ded6f6cda8c9ccaca623f016ccbc46",
+		Sha256: "769812a658936a5918cd8982eb14cd2b5c12f02ce2e3387a63ad65f19d6a1b5e",
+		Sha512: "fe2880a6fb57f30d2c3e099f497c614baa81af60bfc92b332d5f3e68a34ef9b0940ddf73bbc5de3b907a36115cd198eb1dc38440c709d62bc8ffa3e4bf9e38c3",
+		Djb2:   "7b7773ba3b707eac",
+	},
+	{
+		Name:   "SwitchToFiber",
+		Sha1:   "2e640509ef7b4af90edc332f7da9c8b8021418c9",
+		Sha256: "e94550aec6c3e7987ebb54f7bd9a5b2bed2c1c1ce191757bc2c197f4ee1c5174",
+		Sha512: "63101b92cc6fa5ff3661fec49b5641cc1dfa3c625c604cbf7a4322baf98dd35131874daaa047de7c79af84b0d4650a252e9f1f7e69f4edf1160d36fc38b2daeb",
+		Djb2:   "9e4b06475f58a16c",
+	},
 }
+
+var Kernel32 = []ItemHash{}
